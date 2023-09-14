@@ -1,0 +1,49 @@
+*{
+padding:0;
+margin:0;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+background-color : #191919ff;
+padding:0;
+
+}
+.salute{
+   height: 100vh;
+   display :flex;
+   align-items:center;
+}
+
+.saluteTextContainer{
+flex:3;
+}
+
+.saluteImgContainer{
+flex:1;
+}
+.saluteText{
+color: AC7B7D;
+font-size:25vw;
+
+}
+.saluteText1{
+    color: AC7B7D;
+    font-size:4vw;
+    margin-top: -8vw;
+    margin-left: 2vw;
+    
+    }
+.saluteText2{
+        color: AC7B7D;
+        font-size:2vw;
+        margin-left :2vw;
+        
+        }
+
+.saluteImage{
+width :100%;
+}
+a {
+    text-decoration: none !important;
+  }
