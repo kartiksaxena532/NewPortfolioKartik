@@ -25,6 +25,7 @@ flex:1;
 .saluteText{
 color: AC7B7D;
 font-size:25vw;
+cursor:default;
 
 }
 .saluteText1{
@@ -47,3 +48,18 @@ width :100%;
 a {
     text-decoration: none !important;
   }
+
+.nameContainer{
+ height :100vh;
+ background-color: 785589;
+
+}
+.name{
+ font-size:15vw;
+ color:#333;
+ cursor:default;
+ text-align:center;
+ line-height:30vh;
+ padding-top:10;
+
+   }
