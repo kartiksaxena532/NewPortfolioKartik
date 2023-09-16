@@ -116,5 +116,30 @@ align-items:column;
     margin-right:11vw;
     ;  
         }
+.nameContainer1{
+          height :100vh;
+          background-color: 86BBD8;
+          display:flex;
+           align-items:center;
+           justify-content:center;
+         
+         }
+  .designer1{
+    height :100vh;
+    background-color:AC7B7D9;
+    display:flex;
+     align-items:center;
+     justify-content:center;
 
-        
+  }
+  .developerImage3{
+    flex:1;
+  margin-left:5vw;
+   
+        }
+
+.developerImage4{
+  flex:1;
+  margin-right:11vw;
+          
+              }
