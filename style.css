@@ -17,10 +17,13 @@ padding:0;
 
 .saluteTextContainer{
 flex:3;
+margin-left:2vw;
 }
 
 .saluteImgContainer{
 flex:1;
+
+
 }
 .saluteText{
 color: AC7B7D;
@@ -32,18 +35,20 @@ cursor:default;
     color: AC7B7D;
     font-size:4vw;
     margin-top: -8vw;
-    margin-left: 2vw;
+    margin-left:2vw;
     
     }
 .saluteText2{
         color: AC7B7D;
         font-size:2vw;
-        margin-left :2vw;
+        margin-left:2vw;
         
         }
 
 .saluteImage{
-width :100%;
+width:95%;
+margin-top:5vh;
+
 }
 a {
     text-decoration: none !important;
@@ -52,14 +57,64 @@ a {
 .nameContainer{
  height :100vh;
  background-color: 785589;
+ display:flex;
+  align-items:center;
+  justify-content:center;
 
 }
-.name{
- font-size:15vw;
+
+.developerText{
+ flex:3;
+ font-size:10vw;
  color:#333;
  cursor:default;
- text-align:center;
- line-height:30vh;
+ text-align:right;
+ line-height:25vh;
  padding-top:10;
+ text-decoration: none !important;
+ padding-right:5vw;
+    }
+.developerText1{
+
+  flex:3;
+  font-size:10vw;
+  color:#333;
+  cursor:default;
+  text-align:left;
+  line-height:25vh;
+  padding-top:10;
+  text-decoration: none !important;
+  padding-left:5vw;
+}
+.developerImage{
+flex:1;
+margin-left:5vw;
+  
+    }
+
+.imagedev{
+width:130%;
+border-radius:5px
+}
+.column{
+display:flex;
+align-items:column;
+
+}
+
+
+.designer{
+  height :100vh;
+ background-color:#191919ff;
+ display:flex;
+  align-items:center;
+  justify-content:center;
 
    }
+   .developerImage2{
+    flex:1;
+    margin-right:11vw;
+    ;  
+        }
+
+        
