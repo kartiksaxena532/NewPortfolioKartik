@@ -144,15 +144,28 @@ align-items:column;
           
               }
 
+
 .projects{
 display:flex;
 flex-direction:column;
-gap:30vh;
-padding:0px 100px;
+gap:20vh;
+padding:0px 50px;
 
 }
 
-.projectsTitle{
+.projectsHeader{
 font-size: 10vw;
 color:#333;
+padding: 0px 50px;
+}
+.Title{
+  font-size: 10vw;
+  color:#333;
+  margin-bottom:3vh;
+  }
+
+.phoneImage{
+
+  margin-right:2vw;
+
 }
