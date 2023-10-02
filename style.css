@@ -148,11 +148,11 @@ align-items:column;
                 display: flex;
                 flex-direction: column;
                 gap: 30vh;
-                padding: 0px 100px;
+                padding: 0px 50px;
               }
               
               .projectsTitle {
-                font-size: 10vw;
+                font-size: 8vw;
                 color: #333;
               }
               
@@ -162,10 +162,13 @@ align-items:column;
                 gap: 100px;
                 height: 100vh;
                 overflow: hidden;
+                margin:20px;
+              }
               }
               
               .project:nth-child(2n) {
                 flex-direction: row-reverse;
+                margin:10px;
               }
               
               .phone {
@@ -224,6 +227,7 @@ align-items:column;
               }
               
               .projectButton::after {
+                href:"https://www.figma.com/proto/TBUgjeXX6TARbRPVlUokWT/SOS-APP?type=design&node-id=3-15&t=DgzrubSoBX7kMMgK-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&mode=design";
                 content: "View Demo";
                 width: 100%;
                 height: 100%;
@@ -235,7 +239,8 @@ align-items:column;
                 align-items: center;
                 justify-content: center;
                 background-color: #555;
-                color: #222;
+                color: white;
+                
               }
               
               .projectButton:hover.projectButton::after {
@@ -266,3 +271,104 @@ align-items:column;
               .laptopScreen::-webkit-scrollbar {
                 display: none;
               }
+              .githubContainer {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+              }
+              
+              .githubTitle {
+                font-size: 100px;
+                color: #333;
+              }
+              
+              .githubChart {
+                width: 820px;
+                text-align: center;
+              }
+              
+              .dates {
+                padding: 10px;
+                color: #c0c6c5;
+                font-size: 12px;
+                display: flex;
+                justify-content: space-between;
+              }
+              
+              .boxContainer {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 5px;
+              }
+              
+              .box {
+                width: 15px;
+                height: 15px;
+                background-color: #c0c6c5;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: 3s all ease;
+              }
+              
+              .active:nth-child(4n) {
+                background-color: #36c45f;
+              }
+              
+              .githubChart:hover .active:nth-child(2n+1){
+                background-color: #21680d;
+              }
+              .githubChart:hover .active:nth-child(2n){
+                background-color: #21680d;
+              }
+              
+              .githubSm{
+                display: none;
+              }
+              
+              @media screen and (max-width:1024px) {
+              
+                .projects{
+                  padding: 0 30px;
+                  text-align: center;
+                }
+              
+                .project{
+                  flex-direction: column;
+                  height: max-content;
+                }
+                .project:nth-child(2n){
+                  flex-direction: column;
+                }
+              
+                .phone,.laptop{
+                  transform: none !important;
+                }
+                
+                .githubChart{
+                  display: none;
+                }
+              
+                .githubTitle{
+                  text-align: center;
+                  font-size: 10vw;
+                }
+              
+                .githubSm{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 20px;
+                  color:#666362;
+                  font-size: 30px;
+                  text-align: center;
+                }
+              }
+.githublink{
+
+  text-align: center;
+  font-size: 3vw;
+  color:#666362;
+
+}
