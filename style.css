@@ -162,13 +162,13 @@ align-items:column;
                 gap: 100px;
                 height: 100vh;
                 overflow: hidden;
-                margin:20px;
+               
               }
               }
               
               .project:nth-child(2n) {
                 flex-direction: row-reverse;
-                margin:10px;
+                
               }
               
               .phone {
