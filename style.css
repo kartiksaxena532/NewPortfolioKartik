@@ -33,18 +33,32 @@ cursor:default;
 }
 .saluteText1{
     color: AC7B7D;
-    font-size:4vw;
+    font-size:5vw;
     margin-top: -8vw;
     margin-left:2vw;
     
     }
 .saluteText2{
         color: AC7B7D;
-        font-size:2vw;
+        font-size:3vw;
         margin-left:2vw;
         
         }
-
+.saluteText3{
+            color: AC7B7D;
+            font-size:2vw;
+            margin-left:2vw;
+            animation: shake 0.5s ease infinite;
+            
+          }
+          @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+            100% { transform: translateX(0); }
+          }          
+     
 .saluteImage{
 width:95%;
 margin-top:5vh;
