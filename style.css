@@ -182,6 +182,7 @@ align-items:column;
               
               .project:nth-child(2n) {
                 flex-direction: row-reverse;
+                justify-content: flex-end;
                 
               }
               
@@ -190,6 +191,8 @@ align-items:column;
                 width: 305px;
                 height: 600px;
                 position: relative;
+                justify-content: center;
+                align-items: center;
               }
               
               .phoneScreen {
@@ -266,6 +269,8 @@ align-items:column;
                 height: 379px;
                 flex: 1;
                 position: relative;
+                justify-content: center;
+                align-items: center;
               }
               
               .laptopScreen {
@@ -276,6 +281,7 @@ align-items:column;
                 left: 82px;
                 overflow: scroll;
                 border-radius:10px 10px 0px 0px ;
+
               }
               
               .laptopApp {
@@ -339,6 +345,9 @@ align-items:column;
               
               .githubSm{
                 display: none;
+                width: 100px;
+                height: 100px;
+
               }
               
               @media screen and (max-width:1024px) {
@@ -365,9 +374,14 @@ align-items:column;
                 }
               
                 .githubTitle{
-                  text-align: center;
-                  font-size: 10vw;
+                  display: none;
                 }
+
+                .githublink{
+display:none;
+                
+                }
+
               
                 .githubSm{
                   display: flex;
@@ -375,7 +389,6 @@ align-items:column;
                   align-items: center;
                   gap: 20px;
                   color:#666362;
-                  font-size: 30px;
                   text-align: center;
                 }
               }
@@ -384,5 +397,11 @@ align-items:column;
   text-align: center;
   font-size: 3vw;
   color:#666362;
+
+}
+.githublogo{
+ width: 65vw;
+ height: 37vw;
+ margin-top:-12vw;
 
 }
