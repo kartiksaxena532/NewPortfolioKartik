@@ -9,6 +9,13 @@ background-color : #191919ff;
 padding:0;
 
 }
+
+.threedme{
+
+  position:absolute;
+  z-index: 0;
+  overflow:hidden;
+}
 .salute{
    height: 100vh;
    display :flex;
